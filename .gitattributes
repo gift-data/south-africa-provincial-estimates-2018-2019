@@ -3,3 +3,4 @@ data/estimates-of-provincial-expenditure-south-africa-2018-19__2015.csv filter=l
 data/estimates-of-provincial-expenditure-south-africa-2018-19__2016.csv filter=lfs diff=lfs merge=lfs -text
 data/estimates-of-provincial-expenditure-south-africa-2018-19__2017.csv filter=lfs diff=lfs merge=lfs -text
 data/estimates-of-provincial-expenditure-south-africa-2018-19__2018.csv filter=lfs diff=lfs merge=lfs -text
+data/estimates-of-provincial-expenditure-south-africa-2018-19__2019.csv filter=lfs diff=lfs merge=lfs -text
