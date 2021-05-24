@@ -1,0 +1,675 @@
+{
+  "name": "south-africa-provincial-estimates-2018-2019",
+  "id": "MDEwOlJlcG9zaXRvcnkzNzA0NDc2MTk=",
+  "encoding": "utf_8",
+  "format": "csv",
+  "resources": [
+    {
+      "bytes": 7187182,
+      "hash": "2abbe62b7bfedafc3650cf178e29ecd4848ad2a5b3589740c20f7b5beb84d161",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "budget_phase",
+            "name": "budget_phase",
+            "slug": "budget_phase",
+            "type": "string",
+            "format": "default",
+            "columnType": "phase:id",
+            "conceptType": "phase",
+            "options": []
+          },
+          {
+            "title": "department",
+            "name": "department",
+            "slug": "department",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "economic_classification_2",
+            "name": "economic_classification_2",
+            "slug": "economic_classification_2",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economic_classification_3",
+            "name": "economic_classification_3",
+            "slug": "economic_classification_3",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "economic_classification_4",
+            "name": "economic_classification_4",
+            "slug": "economic_classification_4",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "financial_year",
+            "name": "financial_year",
+            "slug": "financial_year",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "government",
+            "name": "government",
+            "slug": "government",
+            "type": "string",
+            "format": "default",
+            "columnType": "geo-source:target:code",
+            "conceptType": "geo-source",
+            "options": []
+          },
+          {
+            "title": "programme",
+            "name": "programme",
+            "slug": "programme",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:label",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "programme_number",
+            "name": "programme_number",
+            "slug": "programme_number",
+            "type": "string",
+            "format": "default",
+            "columnType": "activity:generic:program:code",
+            "conceptType": "activity",
+            "options": []
+          },
+          {
+            "title": "value",
+            "name": "value",
+            "slug": "value",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "estimates-of-provincial-expenditure-south-africa-2018-19__2014.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/estimates-of-provincial-expenditure-south-africa-2018-19__2014.csv",
+      "sample": [
+        [
+          "budget_phase",
+          "department",
+          "economic_classification_2",
+          "economic_classification_3",
+          "economic_classification_4",
+          "financial_year",
+          "government",
+          "programme",
+          "programme_number",
+          "value"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Compensation Of Employees",
+          "Salaries And Wages",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "121283000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Compensation Of Employees",
+          "Social Contributions",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "17776000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Administrative Fees",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "39000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Advertising",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "1059000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Agency And Support / Outsourced Services",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Audit Cost: External",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "5742000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Bursaries: Employees",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "534000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Catering: Departmental Activities",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "1478000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Communication (G&S)",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "16142000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Computer Services",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "3676000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Consultants And Professional Services: Business And Advisory Services",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "814000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Consumable Supplies",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "6304000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Consumable: Stationery,Printing And Office Supplies",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "1345000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Contractors",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "601000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Entertainment",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "130000.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Fleet Services (Including Government Motor Transport)",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Housing",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Infrastructure And Planning",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Clothing Material And Accessories",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Farming Supplies",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Food And Food Supplies",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Fuel, Oil And Gas",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Learner And Teacher Support Material",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Materials And Supplies",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Medical Supplies",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Medicine",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Inventory: Other Supplies",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Laboratory Services",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "0.0"
+        ],
+        [
+          "Audited Outcome",
+          "Cooperative Governance And Traditional Affairs",
+          "Current Payments",
+          "Goods And Services",
+          "Legal Costs",
+          "2014",
+          "Eastern Cape",
+          "Administration",
+          "1",
+          "3110000.0"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "phase": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "budget_phase"
+            ],
+            "attributes": {
+              "budget_phase": {
+                "source": "budget_phase",
+                "title": "budget_phase"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "department"
+            ],
+            "attributes": {
+              "department": {
+                "source": "department",
+                "title": "department"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "economic_classification_2",
+              "economic_classification_3",
+              "economic_classification_4"
+            ],
+            "attributes": {
+              "economic_classification_2": {
+                "source": "economic_classification_2",
+                "title": "economic_classification_2"
+              },
+              "economic_classification_3": {
+                "source": "economic_classification_3",
+                "title": "economic_classification_3",
+                "parent": "economic_classification_2"
+              },
+              "economic_classification_4": {
+                "source": "economic_classification_4",
+                "title": "economic_classification_4",
+                "parent": "economic_classification_3"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "financial_year"
+            ],
+            "attributes": {
+              "financial_year": {
+                "source": "financial_year",
+                "title": "financial_year"
+              }
+            }
+          },
+          "geo-source": {
+            "dimensionType": "location",
+            "primaryKey": [
+              "government"
+            ],
+            "attributes": {
+              "government": {
+                "source": "government",
+                "title": "government"
+              }
+            }
+          },
+          "activity": {
+            "dimensionType": "activity",
+            "primaryKey": [
+              "programme_number"
+            ],
+            "attributes": {
+              "programme": {
+                "source": "programme",
+                "title": "programme",
+                "labelfor": "programme_number"
+              },
+              "programme_number": {
+                "source": "programme_number",
+                "title": "programme_number"
+              }
+            }
+          }
+        },
+        "measures": {
+          "value": {
+            "source": "value",
+            "title": "value"
+          }
+        }
+      }
+    }
+  ],
+  "description": "This dataset includes expenditure data as published in the Estimates of Provincial Revenue and Expenditure. Departmental expenditure data in previous financial years have been aligned with the budget and programme structures of departments as they are structured in the current Medium Term Expenditure Framework.",
+  "title": "South Africa Provincial",
+  "tags": [
+    "provincial"
+  ],
+  "govt_level": "Provincial",
+  "budget_stage": [
+    "Enacted"
+  ],
+  "pub_institutional_name": "South Africa",
+  "continent": "Africa",
+  "country": "South Africa",
+  "periodicity": "Yearly",
+  "years_included": [
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020"
+  ],
+  "start_date": "2015-01-24",
+  "end_date": "2020-12-31"
+}
