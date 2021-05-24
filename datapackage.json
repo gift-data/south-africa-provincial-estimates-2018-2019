@@ -4522,7 +4522,7 @@
   "budget_stage": [
     "Enacted"
   ],
-  "pub_institutional_name": "South Africa",
+  "pub_institutional_name": "National Treasury",
   "continent": "Africa",
   "country": "South Africa",
   "periodicity": "Yearly",
@@ -4535,5 +4535,10 @@
     "2020"
   ],
   "start_date": "2015-01-24",
-  "end_date": "2020-12-31"
+  "end_date": "2020-12-31",
+  "createdAt": "2021-05-24T18:23:18Z",
+  "updatedAt": "2021-05-24T18:34:17Z",
+  "author_website": "https://vulekamali.gov.za/",
+  "author_email": "feedback@vulekamali.gov.za",
+  "region": "Africa"
 }
