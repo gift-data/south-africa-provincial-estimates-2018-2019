@@ -4537,8 +4537,9 @@
   "start_date": "2015-01-24",
   "end_date": "2020-12-31",
   "createdAt": "2021-05-24T18:23:18Z",
-  "updatedAt": "2021-05-24T18:34:17Z",
+  "updatedAt": "2021-05-24T18:48:23Z",
   "author_website": "https://vulekamali.gov.za/",
   "author_email": "feedback@vulekamali.gov.za",
-  "region": "Africa"
+  "region": "Africa",
+  "image": "https://civictech.africa/wp-content/uploads/2020/09/Vuleka-Mali-logo-500X360px.png"
 }
